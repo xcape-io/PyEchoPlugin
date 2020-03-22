@@ -6,8 +6,7 @@ Go to the <a href="https://xcape.io/public/documentation/en/room/Plugintutorial.
 The plugin tutorial is illustrated with:
 * this PyEchoPlugin
 * the <a href="https://github.com/fauresystems/PyEchoProps" target="_blank">PyEchoProps</a>
-* the ArduinoEchoProps
-
+* the <a href="https://github.com/xcape-io/PyEchoPlugin/tree/master/ArduinoEchoProps" target="_blank">ArduinoEchoProps</a>
 
 ![](shot.png)
 

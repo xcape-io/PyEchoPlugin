@@ -8,7 +8,34 @@ The plugin tutorial is illustrated with:
 * the <a href="https://github.com/fauresystems/PyEchoProps" target="_blank">PyEchoProps</a>
 * the <a href="https://github.com/xcape-io/PyEchoPlugin/tree/master/ArduinoEchoProps" target="_blank">ArduinoEchoProps</a>
 
-![](shot.png)
+![](screenshots/shot.png)
+
+
+## Installation
+Download `PyEchoPlugin-master.zip` from this GitHub repository and unflate it in Room/Plugins/PyEchoPlugin directory in **Room** software installation folder.
+
+Edit `definitions.ini` to set MQTT topics for your Escape Room:
+```python
+[mqtt]
+mqtt-pub-props = Room/My room/Props/Arduino Echo/inbox
+mqtt-sub-props = Room/My room/Props/Arduino Echo/outbox
+mqtt-sub-control-administrator = Room/My room/Control/administrator
+
+``` 
+
+Run installer (double-click on `install.bat`):
+
+![](screenshots/shot2.png)
+
+If Windows Defender SmartScreen blocks execution, click **More info** and **Run anyway**
+
+Run test (double-click on `test.bat`):
+
+![](screenshots/shot3.png)
+
+![](screenshots/shot4.png)
+
+If the plugin poped-up your installation is correct.
 
 
 ## Author
